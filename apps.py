@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, classification_report
+from scikit-learn.ensemble import RandomForestClassifier
+
 
 # Load the heart disease dataset (replace 'heart.csv' with your dataset)
 df = pd.read_csv('heart.csv')
